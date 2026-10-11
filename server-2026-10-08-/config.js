@@ -1,3 +1,0 @@
-const CONFIG = {
-    NAVITIME_API_KEY:"5e2852f02fmsh6696f0093edf427p13a470jsnf8aa8b88ee40"
-};
