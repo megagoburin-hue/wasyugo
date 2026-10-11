@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>プライバシーポリシー</title>
+<style>
+/* ベースデザイン（全体・PC共通） */
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  font-family: 'Helvetica Neue', Arial, 'Hiragino Kaku Gothic ProN', 'Hiragino Sans', Meiryo, sans-serif;
+  color: #333333; 
+  display: flex;
+  flex-direction: column;
+  background-color: #d0f0fd; 
+  overflow-y: auto;
+}
+
+/* ヘッダー */
+.app-header {
+  height: 90px;
+  background-color: #d0f0fd;
+  display: flex;
+  align-items: center;
+  padding: 0 30px 0 60px; 
+  flex-shrink: 0;
+}
+
+.logo-balloon {
+  background-color: #ffc22f; 
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 18px;
+  padding: 12px 28px;
+  border-radius: 50px;
+  position: relative;
+  display: inline-block;
+  box-shadow: 0 4px 10px rgba(243, 156, 18, 0.2);
+}
+
+.logo-balloon::after {
+  content: "";
+  position: absolute;
+  bottom: -10px;
+  left: 28px;
+  border-width: 10px 10px 0;
+  border-style: solid;
+  border-color: #ffc22f transparent;
+  display: block;
+  width: 0;
+}
+
+/* メインデザイン */
+.app-main {
+  flex: 1;
+  padding: 0 30px 40px 30px; 
+}
+
+.white-container {
+  background-color: #ffffff;
+  border-radius: 24px;
+  min-height: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 40px;
+  box-sizing: border-box;
+  box-shadow: 0 10px 30px rgba(255, 218, 102, 0.25); 
+}
+
+.white-container h1 {
+  font-size: 24px;
+  color: #2c3e50;
+  margin-top: 0;
+  margin-bottom: 35px;
+  text-align: center;   
+  letter-spacing: 0.05em;
+}
+
+.white-container h2 {
+  font-size: 18px;
+  color: #2c3e50;
+  margin-top: 30px;
+  margin-bottom: 15px;
+  border-left: 4px solid #ffc22f; 
+  padding-left: 10px;
+}
+
+.white-container p {
+  line-height: 1.6;
+  margin-bottom: 20px;
+  font-size: 15px;
+}
+
+/* フォーム関連 */
+.form-content {
+  max-width: 420px;     
+  margin: 0 auto;      
+  text-align: left;
+}
+
+.form-content label {
+  display: inline-block;
+  font-weight: bold;
+  font-size: 15px;
+  color: #4a5568;
+  margin-bottom: 8px;
+}
+
+.form-content input[type="text"],
+.form-content select {
+  width: 100%;
+  padding: 12px 16px;
+  font-size: 16px;
+  border: 2px solid #ffe3a8;    
+  border-radius: 12px;
+  background-color: #ffffff;
+  box-sizing: border-box;
+  outline: none;
+  transition: all 0.2s ease;
+  color: #333333;
+}
+
+
+/* スマホデザイン */
+@media screen and (max-width: 768px) {
+  .app-header {
+    height: 70px;            
+    padding: 0 20px;         
+    justify-content: center; 
+  }
+
+  .logo-balloon {
+    font-size: 16px;         
+    padding: 8px 20px;
+  }
+
+  .logo-balloon::after {
+    left: 50%;               
+    transform: translateX(-50%);
+  }
+
+  .app-main {
+    padding: 0 15px 20px 15px; 
+  }
+
+  .white-container {
+    padding: 24px 20px;      
+    border-radius: 16px;    
+  }
+
+  .white-container h1 {
+    font-size: 20px;         
+    margin-bottom: 25px;
+  }
+
+  .white-container h2 {
+    font-size: 16px;         
+  }
+}
+</style>
+</head>
+<body>
+
+  <!-- ヘッダー -->
+  <header class="app-header">
+    <div class="logo-balloon">わしゅごー！</div>
+  </header>
+
+  <main class="app-main">
+    <div class="white-container">
+      
+      <h1>プライバシーポリシー</h1>
+      <p>当サービスは、ユーザーのプライバシーを尊重し、個人情報の保護を重要視しています。<br>
+      本プライバシーポリシーでは、当サービスにおける個人情報の取扱いについて説明します。</p>
+
+      <h2>1. 取得する情報</h2>
+      <p>当サービスは、サービスの提供に必要な範囲で以下の情報を取得する場合があります。<br>
+      - ブラウザから自動的に取得されるアクセスログやCookie情報<br>
+      - ユーザーから任意で提供されたメールアドレスやアカウント情報</p>
+
+      <h2>2. 利用目的</h2>
+      <p>取得した情報は、以下の目的で利用されます。<br>
+      - サービスの提供、維持、改善のため<br>
+      - お問い合わせへの対応のため</p>
+
+      <h2>3. 第三者への提供</h2>
+      <p>当サービスは、法令に基づく場合や、あらかじめユーザーの同意を得ている場合を除き、個人情報を第三者に提供することはありません。</p>
+
+      <h2>4. 外部サービスとの連携</h2>
+      <p>当サービスでは、利便性向上のために以下の外部サービスを利用する場合があります。</p>
+
+      <h2>5. 免責事項</h2>
+      <p>当サービスからリンクやバナーなどによって他のサイトに移動された場合、移動先サイトで提供される情報、サービス等について一切の責任を負いません。<br>
+      また、情報の正確性については細心の注意を払っておりますが、当サービスが提供する情報によって生じた損害等について、当方は一切の責任を負いかねます。</p>
+
+      <h2>6. ポリシーの変更</h2>
+      <p>当サービスは、必要に応じて本プライバシーポリシーの内容を変更することがあります。変更した際は、当サービス上で告知いたします。</p>
+
+      <h2>7. お問い合わせ</h2>
+      <p>当サービスに関するプライバシーポリシーについてのご質問やご相談は、以下までお問い合わせください。</p>
+
+    </div>
+  </main>
+
+</body>
+</html>
