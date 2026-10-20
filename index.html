@@ -20,10 +20,10 @@
   <h1>複数駅の中間地点からお店検索</h1>
   <div class="form-content">
   <div id="stationContainer">
-    <label>1人目の駅：</label>
+    <label>あなたの出発駅 必須</label>
     <input class="station" type="text" placeholder="例：新宿駅" list="stationlist"><br><br>
 
-    <label>2人目の駅：</label>
+    <label>相手の出発駅 必須</label>
     <input class="station" type="text" placeholder="例：渋谷駅" list="stationlist"><br><br>
   </div>
 
@@ -66,6 +66,8 @@
     <option value="お好み焼き・もんじゃ">お好み焼き・もんじゃ</option>
   </select>
 </div>
+<br>
+
   <label> 価格設定</label>
   <select id="price" required>
       <option value="1">指定なし</option>
@@ -78,14 +80,14 @@
      </select>
   <br><br>
 
-  <label>検索半径（メートル）：</label>
+  <label>駅からの目安</label>
   <select id="radius" type="number" required>
-      <option value="500">500</option>
-      <option value="1000">1000</option>
-      <option value="1500">1500</option>
-      <option value="2000">2000</option>
-      <option value="2500">2500</option>
-      <option value="3000">3000</option>
+      <option value="500">徒歩10分(目安)</option>
+      <option value="1000">徒歩15分(目安)</option>
+      <option value="1500">徒歩20分(目安)</option>
+      <option value="2000">徒歩25分(目安)</option>
+      <option value="2500">徒歩30分(目安)</option>
+      <option value="3000">徒歩45分(目安)</option>
      </select>
   <br><br>
 </div>
@@ -106,14 +108,14 @@
     
     <div class="step-box" data-image="image/image2.png">
       <span class="num">2</span>
-      <h3>中間駅を調べる</h3>
-      <p>計算された中心地点の候補が表示されます。</p>
+      <h3>飲食店を調べる</h3>
+      <p>計算された中心地点周辺の飲食店が表示されます。</p>
     </div>
     
-    <div class="step-box" data-image="image/image3.png">
+    <div class="step-box" data-image="image/yuuhi.jpg">
       <span class="num">3</span>
-      <h3>お店を探す</h3>
-      <p>中間駅の周辺のお店が出てきます。一番下の欄からシェアすることもできます！</p>
+      <h3>シェアする</h3>
+      <p>決定した集合場所と飲食店の情報を簡単に共有できます。</p>
     </div>
   </div>
 </div>
